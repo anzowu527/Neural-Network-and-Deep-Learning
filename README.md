@@ -1,10 +1,10 @@
-# Neural-Network-and-Deep-Learning
+# Neural-Network-and-Deep-Learning-Projects
 ## Files in the Repository
-### Implement NN From Scratch
+### 1. Implement NN From Scratch
 - Implemented the forward and backward function for ReLU, LinearMap, SoftmaxCrossEntropyLoss
 - Used the functions to construct a single layer NN
 
-### Predict Malaria with CNN
+### 2. Predict Malaria with CNN
 Implemented a convolution neural network-based machine learning model to predict whether the cell in the given picture is parasitized by the genus Plasmodium or not.
 1. Transformed the image dataset from a singular folder to a hierarchical structure based on labels.
 2. Identified and removed outliers using **_Isolation Forest detection_**
@@ -19,7 +19,7 @@ Implemented a convolution neural network-based machine learning model to predict
 11. Evaluated model performance using validation accuracy and validation loss.
 12. Predicted labels for the normalized test dataset and prepared final submission by exporting predictions to a CSV file.
 
-### Predict Protein Functions using Transformer models (HF)
+### 3. Predict Protein Functions using Transformer models (HF)
 **Researched and Used Pretrained Models:**
 - Established Protein BERT as the baseline model.
 - Utilized other models from Hugging Face to surpass the baseline accuracy.
@@ -38,7 +38,7 @@ Implemented a convolution neural network-based machine learning model to predict
 **Alternative Approaches:**
 - Attempted to implement the **_ProtENN + HMMER model_** based on a paper from Kaggle, achieving competitive results.
 
-### Molecular Property Prediction using Graph Neural Network
+### 4. Molecular Property Prediction using Graph Neural Network
 Implemented a Graph Neural Network (GNN) using PyTorch Geometric (PyG) to predict molecular properties from graph data structures. The goal is to train the model on a provided dataset and accurately predict a target property for new molecules.
 
 - Utilized **_SMILES augmentation_** and molecular graph augmentation techniques to enhance the diversity and robustness of the training data.
